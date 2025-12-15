@@ -1,0 +1,49 @@
+{
+  "firstName": "Syed",
+  "lastName": "Atril",
+  "profession": "Software Engineer",
+  "email": "atril3123@gmail.com",
+  "resume": "https://drive.google.com/file/d/1iEjZ2J0Lgl1r4RBrhFdmdUZGA7P263BN/view?usp=sharing",
+  "bio": "Hi, I’m Syed Atril, a Full-Stack Developer trained at Microverse, a remote online school. I work with HTML, CSS, Tailwind, JavaScript, React, Next.js, Ruby, Rails, and databases—building projects on my own and with people from around the world.\n\nI’m good at turning Figma or PSD designs into fully working, responsive websites that look just like the design. If you have an idea or design, I can build it for you clean, fast, and exactly how you want it.\n\nI also help businesses grow into strong brands by combining code with creative ideas to make websites that stand out.\n\nWorking online is normal for me, I use tools like Git and Zoom every day, and I enjoy working with teams across different time zones. I also recently launched a project that I’ll be sharing soon stay tuned!",
+  "phone": "923484673983",
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/syed-atril/",
+    "twitter": "",
+    "github": "https://github.com/atril33",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/syedatril",
+    "youtube": "",
+    "dribbble": "",
+    "medium": "",
+    "behance": "",
+    "whatsApp": "+923484673983"
+  },
+  "skills": [
+    "Html",
+    "css",
+    "javascript",
+    "nextjs",
+    "react",
+    "redux",
+    "ruby",
+    "ruby on rails",
+    "tailwind css",
+    "responsive design",
+    "ui/ux"
+  ],
+  "projects": [
+    {
+      "projectName": "New Project",
+      "projectLink": "google.com",
+      "projectImage": "project-image-1"
+    }
+  ],
+  "experiences": [
+    {
+      "exJobTitle": "Frontend Developer",
+      "jobDetail": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
+      "startDate": "2018-07-13",
+      "endDate": "Present"
+    }
+  ]
+}

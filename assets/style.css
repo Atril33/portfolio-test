@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "TASA Orbiter", sans-serif;
+  background: #fff;
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1350px;
+  margin: auto;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(20px);
+  z-index: -1;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  height: 60px;
+  background: transparent;
+  margin: auto;
+}
+
+.logo {
+  font-size: 24px;
+  color: #4a4afd;
+  font-weight: 700;
+}
+
+nav i {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: #000;
+}
+
+
+body section {
+  max-width: 900px;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: auto;
+
+}
+
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.hero-person-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.hero-big-title-text {
+  font-weight: 900;
+  font-size: 35px;
+  width: 380px;
+  line-height: 35px;
+  overflow: hidden;
+}
+
+.hero-big-title-text #userName {
+  color: #4a4afd;
+}
+
+.bio-text {
+  font-size: 16px;
+  color: #7a7979;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hero-action-buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.get-in-touch {
+  width: 150px;
+  padding: 12px;
+  border-radius: 25px;
+  background: #4a4afd;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.download-cv {
+  width: 150px;
+  padding: 12px;
+  border-radius: 25px;
+  background: #fff;
+  text-align: center;
+  border: 2px solid #4a4afd;
+  color: #4a4afd;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.download-cv a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section h2.heading-text {
+  font-size: 30px;
+  color: #000;
+  font-weight: 900;
+  text-align: center;
+
+}
+
+
+
+.skills-list {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 600px;
+  color: #000;
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.skills-list li {
+  padding: 0.5rem 1rem;
+  border: 1.5px solid #e1e1e1;
+  border-radius: 5px;
+  font-weight: medium;
+  background: #e9e8e8;
+}
+
+.all-projects-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1350px;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+.project-container {
+  background: #f7f7f7;
+  border: 1px solid #e1e1e1;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+.project-container img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.project-info .project-name {
+  width: 240px;
+  font-weight: 600;
+  color: #000;
+}
+
+.experience-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 1350px;
+  margin: auto;
+}
+
+.each-experience-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.each-experience-item:last-child {
+  border-bottom: none;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-job-title {
+  font-weight: 900;
+  color: #4a4afd;
+  font-size: 20px;
+}
+
+.experience-duration {
+  color: #636363;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.experience-description {
+  font-size: 15px;
+  color: #444;
+}
+
+
+footer {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer section {
+  align-items: flex-start;
+  gap: 10px;
+}
+
+footer .footer-heading-text {
+  font-size: 20px;
+  color: #000;
+  font-weight: 900;
+}
+
+footer .experience-description {
+  font-size: 15px;
+  color: #000;
+}
+
+footer .footer-social-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  font-size: 20px;
+  color: #000;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 924px) {
+
+  .skills-list {
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .all-projects-container {
+    max-width: 100%;
+  }
+
+  .project-container img {
+    width: 100%;
+  }
+
+  header nav {
+    width: 100%;
+  }
+
+  .logo {
+    margin: auto 20px;
+  }
+
+  nav .nav-links {
+    font-size: 14px;
+    margin: auto 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  nav .nav-links {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background: rgb(255 255 255 / 80%);
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    top: -100%;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s;
+  }
+
+  nav .nav-links.active {
+    top: 60px;
+  }
+
+  .nav-links li:nth-child(1) {
+    margin-top: 20px;
+  }
+
+  nav i {
+    display: block;
+    margin: 0 20px;
+  }
+
+  .hero-big-title-text {
+    width: 100%;
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .bio-text {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .hero-action-buttons {
+    gap: 1rem;
+
+  }
+
+  .hero-person-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+
+  }
+
+}
