@@ -31,19 +31,20 @@
     "responsive design",
     "ui/ux"
   ],
-  "projects": [
-    {
-      "projectName": "New Project",
-      "projectLink": "google.com",
-      "projectImage": "project-image-1"
-    }
-  ],
   "experiences": [
     {
       "exJobTitle": "Frontend Developer",
-      "jobDetail": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.",
-      "startDate": "2018-07-13",
+      "jobDetail": "Redesigned the entire Pondesk website frontend from scratch as the sole developer, delivering a fully responsive, high-performance interface. Focused on usability, accessibility, and brand-aligned visual appeal to simplify customer support management for businesses, while implementing modern web technologies for seamless functionality and smooth navigation.",
+      "startDate": "2024-03-05",
       "endDate": "Present"
+    }
+  ],
+  "projects": [
+    {
+      "projectId": 0,
+      "projectName": "My First Project",
+      "projectLink": "www.google.com",
+      "projectImage": "project - image - 1 "
     }
   ]
 }
